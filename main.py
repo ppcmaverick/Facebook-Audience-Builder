@@ -1,7 +1,7 @@
 
-from phaseOne_class import *
+from phase_one import *
 
 
 if __name__ == '__main__':
-    Data = PhaseOne.promptAndGetData()
-    PhaseOne.sets(Data)
+    Data = get_data()
+    sets(Data)
